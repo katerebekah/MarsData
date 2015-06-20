@@ -1,0 +1,55 @@
+<div class="row">
+    <div class="col-md-5">
+        <div class="row">
+            <div class="col-md-12 well">
+                <h2>Current Conditions on Mars</h2>
+                <br>
+                <p>The most recent data indicates that it is Clear and Cold on Mars.</p>
+                <h4>Today's High: {{currentConditions.max_temp_fahrenheit}} &deg; F</h4>
+                <h4>Today's Low: {{currentConditions.min_temp_fahrenheit}} &deg; F</h4>
+                <p>This data was recorded on Sol Date {{currentConditions.sol}} (Earth Date: {{currentConditions .terrestrial_date}}).
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 panel panel-default space">
+                <div class="panel-body">
+                    <h2>SpaceData</h2>
+                    <br>
+                    <p>This project uses available data about the planets and solar system as well as data from NASA's Asterank API to make a 3D model of the solar system.</p>
+                    <p><a href="https://github.com/katerebekah/spaceData">See this project on GitHub.</a></p>
+                    <p><a href="http://www.asterank.com/api">See more about the Asterank API.</a></p>
+                    <p><a href="http://threejs.org">See more about three.js.</a></p>
+                    <a class='btn btn-default btn-lg btn-block'>Go to SpaceData</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-7">
+        <div class="row">
+            <div class="col-md-11 col-md-offset-1 well well-lg mars">
+                <h2>Data Visualization <span class="small"> Space, Data, Art</span></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-11 col-md-offset-1 panel panel-default">
+                <div class="panel-body">
+                    <h2>MarsData</h2>
+                    <br>
+                    <p>NASA's MAAS API gives access to weather data transmitted to Earth by the Mars Rover. This project uses this data and d3.js to make data visualizations about the weather on Mars. Data includes:</p>
+                    <ul>
+                        <li>High Temperatures</li>
+                        <li>Low Temperatures</li>
+                        <li>Atmospheric Pressure</li>
+                        <li>Sunrise and Sunset Time</li>
+                    </ul>
+                    <p><a href="https://github.com/katerebekah/MarsData">See this project on GitHub.</a></p>
+                    <p><a href="http://marsweather.ingenology.com/#get_started">See more about the MAAS API.</a></p>
+                    <p><a href="http://d3js.org">See more about d3.js.</a></p>
+                    <button class='btn btn-primary btn-lg btn-block' ng-click="mars()">Go to MarsData</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

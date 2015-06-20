@@ -1,0 +1,22 @@
+.mars {
+	background: url('/img/mars2.png') center right;
+}
+.mars .small {
+	color: inherit;
+}
+a {
+	color:#cc4411;
+}
+a:hover {
+	color:#cc4411;
+}
+.space {
+	background-color: #000011;
+	color:#fff;
+}
+.space a {
+	color:#ffffcc;
+}
+.space .btn {
+	color: #fff;
+}
